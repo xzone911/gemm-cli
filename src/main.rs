@@ -129,7 +129,7 @@ struct Args {
     )]
     dynamic_fee_url: Option<String>,
 
-    #[arg(long, help = "Enable dynamic priority fees", global = true)]
+    #[arg(long, help = "Enable dynamic priority fees", global = false)]
     dynamic_fee: bool,
 
     #[command(subcommand)]
