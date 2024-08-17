@@ -116,7 +116,7 @@ struct Args {
         long,
         value_name = "MICROLAMPORTS",
         help = "Price to pay for compute units. If dynamic fees are enabled, this value will be used as the cap.",
-        default_value = "500000",
+        default_value = "100",
         global = true
     )]
     priority_fee: Option<u64>,
